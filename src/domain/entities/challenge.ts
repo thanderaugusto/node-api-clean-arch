@@ -11,7 +11,7 @@ export class Challenge extends Entity<ChallengeProps> {
     }
 
     static create(props: ChallengeProps, id?: string) {
-        const challenge = new Challenge(props);
+        const challenge = new Challenge(props, id);
 
         return challenge
     }

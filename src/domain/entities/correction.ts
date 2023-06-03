@@ -14,7 +14,7 @@ export class Correction extends Entity<CorrectionProps> {
     static create(props: CorrectionProps, id?: string) {
         // if(props.grade < 0 || props.grade > 10)
 
-        const correction = new Correction(props);
+        const correction = new Correction(props, id);
 
         return correction
     }
